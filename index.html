@@ -42,6 +42,64 @@
             border-radius: 10px;
             margin: 10px o;
         }
+
+        h4 {
+            color: #555;
+            font-style: italic;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        p {
+            color: #333;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+            margin 15px 0;
+        }
+
+        button, a {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            border: none;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        a {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        button {
+            background-color: #2196f3;
+            color: white;
+            cursor: no-drop;
+        }
+
+        button:hover {
+            background-color: #0b7dda;
+        }
+
+        button:disabled {
+            background-color: yellow;
+            color: #666;
+            cursor: not-allowed;
+        }
+
+         button:disabled:hover {
+            background-color: #ccc
+        }
     </style>
 </head>
 <body>
@@ -63,17 +121,17 @@
         <p>The Red Panda is a small mammal native to the eastern Himalayas and southwestern China. Despite its name, it is not closely related to the giant panda. Red pandas are excellent climbers and spend most of their time in trees.</p>
 
         <!--Learn more (button) which is a link (a) to a wikipedia article about the animal-->
-        <button><a href="https://en.wikipedia.org/wiki/Red_panda" target="_blank">Learn more</a></button>
+        <a href="https://en.wikipedia.org/wiki/Red_panda" target="_blank">Learn more</a>
 
         <!--View documentary (button) which is a link to a youtube video-->
-        <button><a href="" target="_blank">View documentary</a></button>
+        <a href="https://youtu.be/jtOesnWNrjI?si=C4CPMpuzCIw6HznW" target="_blank">View documentary</a>
 
         <!--Animal gallery (button) which is a link (a)-->
         <button><span title="Coming soon, under construction!">Gallery</span></button>
 
 
         <!--Animal sound (button) which is disabled and with a tool tip-->
-        <button><span title="Coming soon, under construction!">Animal sound</span></button>
+        <button disabled><span title="Coming soon, under construction!">Animal sound</span></button>
     </div>
     <!--Footer-->
     <footer></footer>
